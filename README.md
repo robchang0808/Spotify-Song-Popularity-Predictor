@@ -1,7 +1,7 @@
 # Spotify Song Popularity Prediction
 
 ## Abstract
-We model Spotify song popularity using audio features and metadata from a 114k‑track dataset, applying **LASSO, PCA, CART, Random Forest, and XGBoost** to evaluate which features drive mainstream success. By comparing linear and nonlinear approaches, we find that nonlinear ensemble methods, particularly Random Forest and XGBoost trained on LASSO‑selected features, achieve the strongest predictive performance, significantly improving **ROC‑AUC** and **recall** over the baseline.  
+We modeled Spotify song popularity using audio features and metadata from a 114k‑track dataset, applying **LASSO, PCA, CART, Random Forest, and XGBoost** to evaluate which features drive mainstream success. By comparing linear and nonlinear approaches, we find that nonlinear ensemble methods, particularly Random Forest and XGBoost trained on LASSO‑selected features, achieve the strongest predictive performance, significantly improving **ROC‑AUC** and **recall** over the baseline.  
 
 Key drivers of popularity include **loudness, danceability, instrumentalness, duration, and genre**, suggesting that both sonic and stylistic characteristics play meaningful roles. These results demonstrate that machine learning can provide actionable insight for artists, producers, and streaming platforms in anticipating and shaping song popularity.
 
